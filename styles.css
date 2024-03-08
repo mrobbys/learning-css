@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    font-family: sans-serif;
+}
+
+
+.home-table {
+    width: auto;
+    margin: 1vh;
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+}
+
+.home-table td {
+    padding-left: 4px;
+}
+
+.home-kiri {
+    text-align: right;
+    font-weight: bold;
+
+}
+
+.daftar-tugas {
+    margin: 1vh;
+    font-weight: bold;
+}
+
+.daftar-tugas a:hover {
+    color: #0a0a23;
+}
+
+.daftar-tugas a:active {
+    color: rgb(160, 40, 40);
+}
+
+.profil-desk,
+header, .form-title{
+    margin: 1vh;
+}
+
+.form-title h1,
+.form-title p{
+    text-align: center;
+}
+
+.profil-content {
+    margin-left: 15px;
+}
+
+.img-profil {
+    width: 10%;
+    margin-left: 20px;
+}
+
+.profil-isi {
+    margin-left: 18px;
+}
+
+/*  */
+
+.utama-nota{
+    border: 1px solid black;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.title-nota h4{
+    text-align: center;
+    text-decoration: underline;
+    margin: 0;
+    margin-top: 10px;
+}
+    
+.title-nota p{
+    text-align: center;
+    margin: 0;
+    font-size: small;    
+    margin-bottom: 15px;
+}
+
+.detail-nota p{
+    margin: 0 5px;
+}
+
+.isi-nota{
+    margin-top: 25px;
+    border-top: 1px solid black;
+}
+
+.isi-tabel-nota{
+    width: 100%;
+    
+}
+
+
+.garis-1{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.garis-botom{
+    border-bottom: 1px solid black;
+}
+
+.garis-kanan{
+    border-right: 1px solid black;
+}
+
+.no-garis-botom{
+    border-bottom: none;
+}
+
+.bawah-nota h4{
+    margin-left: 5px;
+}
+
+/*  */
+
+.form-tabel{
+    margin: 0 auto;
+    width: 50%;
+    
+}
+
+.form-tabel textarea{
+    resize: none;
+    width: 80%;
+    height: 7em;
+    font-size: small
+}
+
+.form-tabel td {
+    border: 1px solid black;
+}
+
+.form-tabel th {
+    border: 1px solid black;
+    padding: 20px;
+    padding-left: 5px;
+    border-bottom: none;
+    font-size: 20px;
+}
+
+.form-garis-atas{
+    border-radius: 15px 15px 0 0;
+}
+
+.form-garis-bawah{
+    border-radius: 0 0 15px 15px;
+}
+
+.form-tabel td {
+    border-bottom: none;
+    border-right: none;
+}
+
+.form-tabel td:nth-child(2) {
+    border-right: 1px solid black;
+}
+
+.form-tabel tbody tr:last-child td {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.form-tabel button[type="submit"],
+.form-tabel button[type="reset"] {
+    background-color: #85859a;
+    color: white;
+    padding: 5px;
+    transition: transform 0.3s ease;
+    width: 30%;
+    margin: 10px;
+}
+
+.form-tabel button[type="submit"]{
+    margin-right: 10%;
+}
+
+.form-tabel button[type="submit"]:hover,
+.form-tabel button[type="reset"]:hover {
+    background-color: rgb(112, 195, 126);
+    transform: scale(1.1);
+}
+
+.frame-gallery{
+    text-align: center;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+
+.gallery{
+    border: 1px solid black;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 15px;
+    transition: background-color 0.3s linear;
+}
+
+.gallery-twt-head{
+    margin-top: 30px;
+}
+
+
+.gallery img{
+    width: 20%;
+}
+
+.gallery1:hover{
+    background-color: aqua;
+    
+}
+
+.gallery2:hover{
+    background-color: blueviolet;
+    
+}
+
+.gallery3:hover{
+    background-color: deeppink;
+    
+}
+
+.styling-button{
+    background-color: black;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .luar-tabel {
+        border: 1px solid black;
+        width: auto;
+        margin: 10px;
+        padding: 5px;
+    }
+}

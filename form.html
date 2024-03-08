@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">
+            << Kembali ke halaman utama </a>
+    </header>
+
+    <div class="form-title">
+        <h1>Registrasi Khusus</h1>
+        <p>Masukan data dengan lengkap</p>
+        
+        <form action="">
+            <table class="form-tabel" cellspacing="0" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th class="form-garis-atas" colspan="2" align="left"><label for="biodata">Biodata :</label></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label for="nama-lengkap">Nama Lengkap :</label></td>
+                        <td><input type="text" id="nama-lengkap" placeholder="Nama Lengkap"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="tempat-tanggal-lahir">Tempat, Tanggal Lahir :</label></td>
+                        <td><input type="text" id="tempat-tanggal-lahir" placeholder="Tempat Lahir"> <input type="date"
+                                id="tempat-tanggal-lahir"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Telepon / Email</label></td>
+                        <td><input type="number" placeholder="081234567890"> <input type="email"
+                                placeholder="email@gmail.com"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="JenKel" name="JenKel">Jenis Kelamin :</label></td>
+                        <td><input type="radio" id="pria" name="JenKel" checked><label for="pria">Pria</label> <input
+                                type="radio" id="wanita" name="JenKel"><label for="wanita">Wanita</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pekerjaan">Pekerjaan :</label></td>
+                        <td><select name="pekerjaan" id="pekerjaan">
+                                <option value="">- pilih pekerjaan -</option>
+                                <option value="1">Pegawai Negeri Sipil</option>
+                                <option value="2">Pegawai Swasta</option>
+                                <option value="3">Mahasiswa</option>
+                                <option value="4">Lainnya</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="alamat">Alamat :</label></td>
+                        <td><textarea name="alamat" id="alamat"></textarea></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2" align="left">Materi Kursus :</th>
+                    </tr>
+                    <tr>
+                        <td><label for="materi-kursus">Materi Kursus : </label></td>
+                        <td>
+                            <input type="checkbox" id="office"><label for="office">Aplikasi Office</label>
+                            <input type="checkbox" id="web"><label for="web">Pemrograman Web</label><br>
+                            <input type="checkbox" id="android"><label for="android">Android</label>
+                            <input type="checkbox" id="desain-grafis"><label for="desain-grafis">Desain Grafis</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center" class="form-garis-bawah">
+                            <button type="submit">Simpan</button>
+                            <button type="reset">Reset</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
